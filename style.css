@@ -1,0 +1,250 @@
+body {
+  font-family: Verlag, Arial, sans-serif;
+  font-size: 12px;
+}
+
+header {
+  background-color: black;
+}
+
+i {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d4d4d4;
+}  
+
+p {
+  font-family: Family rubrik, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #aaaaaa;
+} 
+
+h2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+} 
+
+h6 {
+  color: #aaaaaa;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.badge {
+  font-size: 100%;
+  padding: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;  
+}
+
+.card {
+  border: none;
+  padding: 0.5em;
+}
+
+.separator {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.separator-line {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #f00; 
+}
+
+.slider-icon {
+  position: absolute;
+  top: -25px;
+  right: -15px;
+  font-size: 24px;
+  color: #000; 
+}
+
+.col-lg-4.col-sm-6, .col-lg-4.col-sm-6 h6, .col-lg-4.col-sm-6 a, .col-lg-4.col-sm-6 a i, .col-lg-4.col-sm-6 .badge, .col-lg-4.col-sm-6 .badge-warning {
+  color: gray;
+}
+
+
+/* Entête */
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.date {
+  text-align: right;
+  margin-left: 1rem;
+}
+
+.montreal {
+  background-image: url(https://picsum.photos/1100/500?random=1);
+  margin: 1em;
+}
+
+.montreal-card {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-left: 1.5em !important;
+}
+
+
+/* Menu */
+.sectionnav {
+  background: black;
+}
+
+.sectionnav .nav-item .fa {
+  color: white;
+}
+
+.sectionnav .nav-item .fa:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.sectionnav .nav-item .fa-search,
+.sectionnav .nav-item .fa-user {
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+}
+
+.sectionnav .nav-item .notification {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 32px;
+  margin-right: 20px;
+}
+
+
+/* Publicite à droite */
+.publicite {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+}
+
+ /* Catégories chroniques */
+.artpetit {
+  font-size: 16px ;
+
+}
+
+.article {
+  font-size: 20px;
+  color: black;
+  font-style: normal;
+  font-weight: 300;
+}
+
+
+/* Footer */
+footer {
+  width: 100%;
+  background-color: lightgray;
+}
+
+footer h6 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: gray;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer hr {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+footer span {
+  color: gray;
+}
+
+footer .d-flex {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+footer .fa {
+  color: darkgrey;
+}
+
+
+/* Publicite carrousel */
+#myCarousel {
+  background-color: lightgray;
+  height: 300px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.carousel-indicators .active {
+  background-color: white;
+}
+
+.carousel-item img {
+  width: 300px;
+  height: 300px;
+}
+
+.carousel-item h3 {
+  font-size: 24px;
+}
+
+.carousel-item .text-danger {
+  color: red;
+}
+
+.carousel-item .col-lg-4 {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-item .col-lg-4.text-right {
+  justify-content: flex-end;
+}
+
+.carousel-item .col-lg-4.text-left {
+  justify-content: flex-start;
+}
+
+
